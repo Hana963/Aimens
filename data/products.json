@@ -1,0 +1,64 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "image": "20_couch_rolls",
+            "title": "20 Inch Couch Rolls",
+            "price": "36.00"
+        },
+        {
+            "id": 2,
+            "image": "one shot drain",
+            "title": "One Shot Drain Cleaner £9.75 per 1 litre bottle",
+            "price": "9.75"
+        },
+        {
+            "id": 3,
+            "image": "20 Eco couch rolls",
+            "title": "20” Eco couch rolls",
+            "price": "32.00"
+        },
+        {
+            "id": 4,
+            "image": "blue rolls",
+            "title": "Blue 2 Ply Center Feed Rolls 6 per case",
+            "price": "19.00"
+        },
+        {
+            "id": 5,
+            "image": "100 vinyl gloves",
+            "title": "Single Box of 100 Gloveman Vinyl Gloves - 3 sizes available",
+            "price": "6.00"
+        },
+        {
+            "id": 6,
+            "image": "softesse tissues",
+            "title": "Softesse Womansize Facial Tissues",
+            "price": "0.99"
+        },
+        {
+            "id": 7,
+            "image": "10 couch roll multiple",
+            "title": "10 Couch Roll Multiple",
+            "price": "36.00"
+        },
+        {
+            "id": 8,
+            "image": "grapeseed oil",
+            "title": "Grapeseed Oil 5 Litre",
+            "price": "34.00"
+        },
+        {
+            "id": 9,
+            "image": "daz",
+            "title": "Daz Professional Washing Powder",
+            "price": "27.00"
+        },
+        {
+            "id": 10,
+            "image": "face mask",
+            "title": "Surgical Face Mask",
+            "price": "4.00"
+        }
+    ]
+}
