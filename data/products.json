@@ -59,6 +59,12 @@
             "image": "face mask",
             "title": "Surgical Face Mask",
             "price": "4.00"
+        },
+        {
+            "id": 11,
+            "image": "almond oil",
+            "title": "Almond Sweet Oil 5 Litre",
+            "price": "32.99"
         }
     ]
 }

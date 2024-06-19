@@ -7,7 +7,7 @@ const Product = ({image, title, price}) => {
   return (
     <View>
         <View style={styles.column} >
-            <Image source={image} style={styles.image} />
+            <Image source={image} style={[styles.image, { borderColor: "green", borderWidth: 1 }]} />
         </View>
         <View>
             <Text style={styles.title} >{ ((title).length > maxlimit) ? 
@@ -15,7 +15,7 @@ const Product = ({image, title, price}) => {
     title }</Text>
         </View>
         <View>
-            <Text>£{price}</Text>
+            <Text style={styles.price} >£{price}</Text>
         </View>
     </View>
   )
@@ -29,14 +29,21 @@ const styles = StyleSheet.create({
         height: 120,
         margin: 5,
         resizeMode: 'contain',
+        borderRadius: 10,
     },
     title: {
         textAlign: 'center',
-        width: '50%',
+        width: '70%',
+        paddingTop: 10,
+        height: "50px",
+    },
+    price: {
+        padding: 5,
+        marginLeft: 20,
+    },
+    column: {
+        flexDirection: 'column',
+        alignItems: 'center',
+        width: '80%',
     }
-    // column: {
-    //     flexDirection: 'column',
-    //     alignItems: 'center',
-    //     width: '50%',
-    // }
 })

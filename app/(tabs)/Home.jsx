@@ -27,6 +27,8 @@ function Home() {
                 return require("../../assets/images/daz.jpg")
             case "face mask":
                 return require("../../assets/images/face mask.jpg")
+            case "almond oil":
+                return require("../../assets/images/almond oil.jpg")
             default:
                 return null;
         }
