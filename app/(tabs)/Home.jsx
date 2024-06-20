@@ -1,9 +1,11 @@
-import { ScrollView, StyleSheet, Text, View } from "react-native";
+import { ScrollView, StyleSheet, Text, TouchableOpacity, View } from "react-native";
 import React from "react";
 import Product from "@/components/common components/Product";
 import ProductsData from '../../data/products.json'
+import { useNavigation } from "@react-navigation/native";
 
 function Home() {
+    const navigation = useNavigation();
     
     const getImage = (image) => {
         switch(image) {
@@ -29,32 +31,53 @@ function Home() {
                 return require("../../assets/images/face mask.jpg")
             case "almond oil":
                 return require("../../assets/images/almond oil.jpg")
+            case "soya bean":
+                return require("../../assets/images/soya bean.jpg")
+            case "couch rolls 10":
+                return require("../../assets/images/couch rolls 10.png")
+            case "hand sanitiser":
+                return require("../../assets/images/hand sanitiser.png")
+            case "couch rolls 20":
+                return require("../../assets/images/couch rolls 20.png")
+            case "surgical":
+                return require("../../assets/images/surgical.jpg")
             default:
                 return null;
         }
     }
     
   return (
-    <ScrollView contentContainerStyle={styles.container}>
+      <ScrollView contentContainerStyle={styles.container}>
+        <Text style={styles.title} >Welcome!</Text>
     <View style={styles.row}>
         <View style={styles.column}>
             {ProductsData.products.filter((_, index) => index % 2 == 0).map((product) => (
-                <Product 
-                    key={product.id} 
-                    image={getImage(product.image)} 
-                    title={product.title} 
-                    price={product.price} 
-                />
+                <TouchableOpacity 
+                    key={product.id}
+                    onPress={() => navigation.navigate('ProductData', {product})}
+                >
+                    <Product 
+                        // key={product.id} 
+                        image={getImage(product.image)} 
+                        title={product.title} 
+                        price={product.price} 
+                    />
+                </TouchableOpacity>
             ))}
         </View>
         <View style={styles.column}>
             {ProductsData.products.filter((_, index) => index % 2 == 1).map((product) => (
-                <Product
+                <TouchableOpacity
                     key={product.id}
-                    image={getImage(product.image)}
-                    title={product.title}
-                    price={product.price}
-                />
+                    onPress={() => navigation.navigate('ProductData', {product})}
+                >
+                    <Product
+                        // key={product.id}
+                        image={getImage(product.image)}
+                        title={product.title}
+                        price={product.price}
+                    />
+                </TouchableOpacity>
             ))}
         </View>
     </View>
@@ -66,13 +89,20 @@ export default Home;
 
 const styles = StyleSheet.create({
     container: {
-        backgroundColor: "white",
-        flexDirection: "row",
-        justifyContent: "center",
+        backgroundColor: "#f0f7f5",
+        // flexDirection: "row",
+        // justifyContent: "center",
         padding: 10,
+    },
+    title: {
+        textAlign: 'center',
+        margin: 10,
+        fontSize: 20,
+        fontWeight: 'bold',
     },
     row: {
         flexDirection: "row",
+        justifyContent: 'center',
     },
     column: {
         margin: 30,

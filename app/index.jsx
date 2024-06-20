@@ -4,6 +4,8 @@ import { NavigationContainer } from '@react-navigation/native'
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs'
 import Profile from './(tabs)/Profile'
 import Home from './(tabs)/Home'
+import ProductsData from '../data/products.json'
+import Product from "@/components/common components/Product";
 
 import Ionicons from 'react-native-vector-icons/Ionicons';
 
@@ -47,6 +49,10 @@ const index = () => {
         <Tab.Screen name = "Home" component={Home} />
         <Tab.Screen name = "Search" component={Search} />
         <Tab.Screen name = "Profile" component={Profile} />
+        {/* <Tab.Screen name = "ProductData" component={Product} 
+          options={{ tabBarButton: () => null, 
+          tabBarVisible: false }}
+        /> */}
       </Tab.Navigator>
     </NavigationContainer>
 

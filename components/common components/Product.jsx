@@ -5,9 +5,9 @@ const Product = ({image, title, price}) => {
     const maxlimit = 20
 
   return (
-    <View>
+    <View style={styles.productContainer}>
         <View style={styles.column} >
-            <Image source={image} style={[styles.image, { borderColor: "green", borderWidth: 1 }]} />
+            <Image source={image} style={styles.image} />
         </View>
         <View>
             <Text style={styles.title} >{ ((title).length > maxlimit) ? 
@@ -24,26 +24,40 @@ const Product = ({image, title, price}) => {
 export default Product
 
 const styles = StyleSheet.create({
+    productContainer: {
+        marginBottom: 20,
+        shadowColor: "#000",
+        shadowOffset: { width: 0, height: 2 },
+        shadowOpacity: 0.8,
+        shadowRadius: 2,
+        elevation: 5,
+        backgroundColor: 'white',
+        borderRadius: 10,
+        padding: 10,
+        alignItems: 'center',
+    },
     image: {
-        width: 120,
-        height: 120,
+        width: 130,
+        height: 130,
         margin: 5,
         resizeMode: 'contain',
         borderRadius: 10,
+        
     },
     title: {
         textAlign: 'center',
-        width: '70%',
+        width: '100%',
         paddingTop: 10,
         height: "50px",
     },
     price: {
-        padding: 5,
-        marginLeft: 20,
+        paddingTop: 5,
+        // paddingBottom: 25,
+        // marginLeft: 30,
     },
     column: {
         flexDirection: 'column',
         alignItems: 'center',
-        width: '80%',
+        // width: '80%',
     }
 })

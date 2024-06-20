@@ -65,6 +65,36 @@
             "image": "almond oil",
             "title": "Almond Sweet Oil 5 Litre",
             "price": "32.99"
+        },
+        {
+            "id": 12,
+            "image": "soya bean",
+            "title": "Soya Bean and Wheatgerm Massage Oil",
+            "price": "29.00"
+        },
+        {
+            "id": 13,
+            "image": "couch rolls 10",
+            "title": "Couch Rolls & Hygiene Rolls 10”",
+            "price": "36.00"
+        },
+        {
+            "id": 14,
+            "image": "hand sanitiser",
+            "title": "Hand Sanitiser 5 Ltr 70% Alcohol",
+            "price": "24.95"
+        },
+        {
+            "id": 15,
+            "image": "couch rolls 20",
+            "title": "Couch Rolls & Hygiene Rolls 20”",
+            "price": "36.00"
+        },
+        {
+            "id": 16,
+            "image": "surgical",
+            "title": "Surgical Spirit 4 Litre",
+            "price": "20.00"
         }
     ]
 }
