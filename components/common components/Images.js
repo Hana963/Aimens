@@ -32,6 +32,22 @@ export const getImage = (image) => {
         return require("../../assets/images/couch rolls 20.png");
       case "surgical":
         return require("../../assets/images/surgical.jpg");
+      case "lavender":
+        return require("../../assets/images/lavender oil.png");
+      case "100 latex gloves":
+        return require("../../assets/images/100 latex gloves.png");
+      case "eyelash sheets":
+        return require("../../assets/images/eyelash sheets.jpg");
+      case "tea tree wax":
+        return require("../../assets/images/tea tree wax.jpg");
+      case "waxing strips":
+        return require("../../assets/images/waxing strips.jpg");
+      case "shower cap":
+        return require("../../assets/images/shower cap.png");
+      case "apron":
+        return require("../../assets/images/apron.jpg");
+      case "exfoliant":
+        return require("../../assets/images/exfoliant.png");
       default:
         return null;
     }

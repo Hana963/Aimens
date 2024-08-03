@@ -95,6 +95,54 @@
             "image": "surgical",
             "title": "Surgical Spirit 4 Litre",
             "price": "20.00"
+        },
+        {
+            "id": 17,
+            "image": "lavender",
+            "title": "Lavender Blend Massage Oil",
+            "price": "22.50 - £47.00"
+        },
+        {
+            "id": 18,
+            "image": "100 latex gloves",
+            "title": "Single Box of 100 Gloveman Latex Powder Free Gloves – 3 sizes available",
+            "price": "7.00"
+        },
+        {
+            "id": 19,
+            "image": "eyelash sheets",
+            "title": "Strictly Professional Eyelash Tinting Protective Sheets",
+            "price": "3.20"
+        },
+        {
+            "id": 20,
+            "image": "tea tree wax",
+            "title": "EPIL & CO Tea Tree Wax 425g",
+            "price": "8.25"
+        },
+        {
+            "id": 21,
+            "image": "waxing strips",
+            "title": "EPIL & CO Paper Waxing Strips (Pack of 100)",
+            "price": "2.10"
+        },
+        {
+            "id": 22,
+            "image": "shower cap",
+            "title": "Disposable Mop/Shower Cap (Pack of 100)",
+            "price": "13.00"
+        },
+        {
+            "id": 23,
+            "image": "apron",
+            "title": "Premium Clear Flat Packed Disposable Aprons with Anti Bacteria (Pack of 100)",
+            "price": "8.00"
+        },
+        {
+            "id": 24,
+            "image": "exfoliant",
+            "title": "Luxury Body Exfoliant",
+            "price": "11.50"
         }
     ]
 }
