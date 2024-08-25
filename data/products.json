@@ -143,6 +143,126 @@
             "image": "exfoliant",
             "title": "Luxury Body Exfoliant",
             "price": "11.50"
+        },
+        {
+            "id": 25,
+            "image": "soap dispenser",
+            "title": "Wall Mounted Soap/Sanitiser Dispenser 350ml",
+            "price": "9.50"
+        },
+        {
+            "id": 26,
+            "image": "nitrile gloves",
+            "title": "Single Box of 100 Gloveman Black Nitrile Powder Free Gloves – 3 Sizes Available",
+            "price": "19.00"
+        },
+        {
+            "id": 27,
+            "image": "nitrile gloves 200",
+            "title": "Single Box of 200 Gloveman Nitrile Gloves – 3 Sizes Available",
+            "price": "11.50"
+        },
+        {
+            "id": 28,
+            "image": "face mask aura",
+            "title": "3M™ Aura™ 9322+ FFP2 Particulate Respirator Face Mask",
+            "price": "8.99"
+        },
+        {
+            "id": 29,
+            "image": "surgical face mask",
+            "title": "Type IIR surgical face mask",
+            "price": "19.50"
+        },
+        {
+            "id": 30,
+            "image": "face shield",
+            "title": "Disposable Face Shield",
+            "price": "1.75"
+        },
+        {
+            "id": 31,
+            "image": "eyelash developer",
+            "title": "Strictly Professional Eyelash Tint Developer",
+            "price": "2.51"
+        },
+        {
+            "id": 32,
+            "image": "eyelash tint blue/black",
+            "title": "Strictly Professional Eyelash Eyebrow Tint Blue/Black",
+            "price": "4.54"
+        },
+        {
+            "id": 33,
+            "image": "eyelash tint grey",
+            "title": "Strictly Professional Eyelash Eyebrow Tint Grey",
+            "price": "4.54"
+        },
+        {
+            "id": 34,
+            "image": "eyelash tint black",
+            "title": "Strictly Professional Eyelash Eyebrow Tint Black",
+            "price": "4.54"
+        },
+        {
+            "id": 35,
+            "image": "eyelash tint brown",
+            "title": "Strictly Professional Eyelash Eyebrow Tint Brown",
+            "price": "4.54"
+        },
+        {
+            "id": 36,
+            "image": "waxing spatulas",
+            "title": "DEO Eyebrow Waxing Spatulas",
+            "price": "1.10"
+        },
+        {
+            "id": 37,
+            "image": "facial waxing spatulas",
+            "title": "DEO facial Waxing Spatulas",
+            "price": "1.35"
+        },
+        {
+            "id": 38,
+            "image": "mini waxing spatulas",
+            "title": "DEO Mini/Slim Waxing Spatulas",
+            "price": "1.10"
+        },
+        {
+            "id": 39,
+            "image": "regular waxing spatulas",
+            "title": "DEO Regular Waxing Spatulas",
+            "price": "1.60"
+        },
+        {
+            "id": 40,
+            "image": "paper waxing strips",
+            "title": "DEO Non Woven Paper Waxing Strips",
+            "price": "2.70"
+        },
+        {
+            "id": 41,
+            "image": "g string",
+            "title": "Disposable G String (50 Units per pack)",
+            "price": "8.50"
+        },
+        {
+            "id": 42,
+            "image": "9 pack toilet tissues",
+            "title": "9 pack Premium quality toilet tissues 5 packs per case – 45 rolls",
+            "price": "18.00"
+        },
+        {
+            "id": 43,
+            "image": "4 pack toilet tissues",
+            "title": "4 pack Premium quality toilet tissues 10 packs per case – 40 rolls",
+            "price": "21.00"
+        },
+        {
+            "id": 44,
+            "image": "creme wax",
+            "title": "Epil & Co Crème Wax with Tea Tree oil",
+            "price": "8.25"
         }
     ]
 }
